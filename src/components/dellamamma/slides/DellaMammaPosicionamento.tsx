@@ -14,9 +14,9 @@ const shake = (delay: number) => ({
     x: [0, -3, 3, -2, 2, 0],
   },
   transition: {
-    opacity: { duration: 0.6, delay, ease: 'easeOut' },
-    y: { duration: 0.6, delay, ease: 'easeOut' },
-    x: { duration: 0.3, delay: delay + 0.6, ease: 'easeInOut' },
+    opacity: { duration: 0.6, delay, ease: 'easeOut' as Easing },
+    y: { duration: 0.6, delay, ease: 'easeOut' as Easing },
+    x: { duration: 0.3, delay: delay + 0.6, ease: 'easeInOut' as Easing },
   },
 });
 
