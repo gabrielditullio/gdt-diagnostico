@@ -4,8 +4,10 @@ import { AnimatePresence, motion } from 'framer-motion';
 import DellaMammaCapa from './slides/DellaMammaCapa';
 import DellaMammaIntroducao from './slides/DellaMammaIntroducao';
 import DellaMammaInstagram from './slides/DellaMammaInstagram';
+import DellaMammaFichaGoogle from './slides/DellaMammaFichaGoogle';
+import DellaMammaProblemasFicha from './slides/DellaMammaProblemasFicha';
 
-const slides = [DellaMammaCapa, DellaMammaIntroducao, DellaMammaInstagram];
+const slides = [DellaMammaCapa, DellaMammaIntroducao, DellaMammaInstagram, DellaMammaFichaGoogle, DellaMammaProblemasFicha];
 
 const DellaMammaPresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
