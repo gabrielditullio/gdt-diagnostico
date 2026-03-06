@@ -4,8 +4,10 @@ import { AnimatePresence, motion } from 'framer-motion';
 import RecantoCapa from './slides/RecantoCapa';
 import RecantoIntroducao from './slides/RecantoIntroducao';
 import RecantoInstagram from './slides/RecantoInstagram';
+import RecantoFichaGoogle from './slides/RecantoFichaGoogle';
+import RecantoProblemasFicha from './slides/RecantoProblemasFicha';
 
-const slides = [RecantoCapa, RecantoIntroducao, RecantoInstagram];
+const slides = [RecantoCapa, RecantoIntroducao, RecantoInstagram, RecantoFichaGoogle, RecantoProblemasFicha];
 
 const RecantoPresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
