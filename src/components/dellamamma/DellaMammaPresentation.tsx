@@ -8,8 +8,10 @@ import DellaMammaFichaGoogle from './slides/DellaMammaFichaGoogle';
 import DellaMammaProblemasFicha from './slides/DellaMammaProblemasFicha';
 import DellaMammaTriploZero from './slides/DellaMammaTriploZero';
 import DellaMammaBuscas from './slides/DellaMammaBuscas';
+import DellaMammaDiagnostico from './slides/DellaMammaDiagnostico';
+import DellaMammaResumo from './slides/DellaMammaResumo';
 
-const slides = [DellaMammaCapa, DellaMammaIntroducao, DellaMammaInstagram, DellaMammaFichaGoogle, DellaMammaProblemasFicha, DellaMammaTriploZero, DellaMammaBuscas];
+const slides = [DellaMammaCapa, DellaMammaIntroducao, DellaMammaInstagram, DellaMammaFichaGoogle, DellaMammaProblemasFicha, DellaMammaTriploZero, DellaMammaBuscas, DellaMammaDiagnostico, DellaMammaResumo];
 
 const DellaMammaPresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
