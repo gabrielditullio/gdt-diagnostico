@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { fadeUp } from './animations';
+import gabrielFoto from '@/assets/gabriel-foto.jpg';
 
 const SlideQuemSouEu = () => {
   return (
@@ -8,9 +9,7 @@ const SlideQuemSouEu = () => {
       <div className="max-w-5xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-[35%_65%] gap-8 md:gap-12 items-start mb-10">
           <motion.div {...fadeUp(0)} className="flex justify-center md:justify-start">
-            <div className="w-[240px] h-[300px] border-2 border-[#A9A9A9] flex items-center justify-center">
-              <span className="font-montserrat font-bold text-2xl text-[#A9A9A9]">FOTO</span>
-            </div>
+            <img src={gabrielFoto} alt="Gabriel Di Tullio" className="w-[240px] h-[300px] object-cover border-2 border-[#A9A9A9]" />
           </motion.div>
 
           <div>
