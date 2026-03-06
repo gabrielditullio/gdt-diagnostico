@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Check, AlertTriangle } from 'lucide-react';
 import { fadeUp } from '../../slides/animations';
+import recantoAnunciosMeta from '@/assets/recanto-anuncios-meta.png';
 
 const anuncios = [
   { n: '1', foco: 'Pizza grande a partir de R$58', inicio: '5 fev', destino: 'pedido.anota.ai', formato: 'Vídeo 17s' },
@@ -50,9 +51,7 @@ const RecantoAnuncios = () => {
 
         {/* Mapping block */}
         <motion.div {...fadeUp(0.2)} className="bg-white border border-[#A9A9A9] p-6 mb-8">
-          <div className="w-full h-[100px] border-2 border-dashed border-[#A9A9A9] flex items-center justify-center mb-6">
-            <span className="font-montserrat text-sm text-[#A9A9A9]">SCREENSHOT — Biblioteca de Anúncios (11 anúncios ativos)</span>
-          </div>
+          <img src={recantoAnunciosMeta} alt="Biblioteca de Anúncios Meta — 11 anúncios ativos" className="w-full object-contain mb-6 border border-[#A9A9A9]" />
 
           <p className="font-montserrat font-bold text-base text-[#1B2A4A] mb-4">Mapeamento dos 11 anúncios</p>
 
