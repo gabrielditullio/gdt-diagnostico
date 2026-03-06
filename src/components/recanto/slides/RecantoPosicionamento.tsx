@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion, type Easing } from 'framer-motion';
 
 const line = (delay: number, props: { text: string; className: string; shake?: boolean }) => {
   const anim = props.shake
@@ -10,7 +10,7 @@ const line = (delay: number, props: { text: string; className: string; shake?: b
     : {
         initial: { opacity: 0, y: 15 },
         animate: { opacity: 1, y: 0 },
-        transition: { duration: 0.5, delay, ease: 'easeOut' },
+        transition: { duration: 0.5, delay, ease: 'easeOut' as Easing },
       };
   return (
     <motion.p key={delay} {...anim} className={props.className}>
