@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Check, AlertTriangle } from 'lucide-react';
 import { fadeUp } from '../../slides/animations';
+import recantoAnunciosMeta from '@/assets/recanto-anuncios-meta.png';
 
 const anuncios = [
   { n: '1', foco: 'Pizza grande a partir de R$58', inicio: '5 fev', destino: 'pedido.anota.ai', formato: 'Vídeo 17s' },
