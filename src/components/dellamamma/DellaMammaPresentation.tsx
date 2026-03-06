@@ -6,8 +6,10 @@ import DellaMammaIntroducao from './slides/DellaMammaIntroducao';
 import DellaMammaInstagram from './slides/DellaMammaInstagram';
 import DellaMammaFichaGoogle from './slides/DellaMammaFichaGoogle';
 import DellaMammaProblemasFicha from './slides/DellaMammaProblemasFicha';
+import DellaMammaTriploZero from './slides/DellaMammaTriploZero';
+import DellaMammaBuscas from './slides/DellaMammaBuscas';
 
-const slides = [DellaMammaCapa, DellaMammaIntroducao, DellaMammaInstagram, DellaMammaFichaGoogle, DellaMammaProblemasFicha];
+const slides = [DellaMammaCapa, DellaMammaIntroducao, DellaMammaInstagram, DellaMammaFichaGoogle, DellaMammaProblemasFicha, DellaMammaTriploZero, DellaMammaBuscas];
 
 const DellaMammaPresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
