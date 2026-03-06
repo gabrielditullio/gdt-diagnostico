@@ -6,8 +6,10 @@ import SlideIntroducao from './slides/SlideIntroducao';
 import SlideInstagram from './slides/SlideInstagram';
 import SlideFichaGoogle from './slides/SlideFichaGoogle';
 import SlideProblemasFicha from './slides/SlideProblemasFicha';
+import SlideSite from './slides/SlideSite';
+import SlideBuscas from './slides/SlideBuscas';
 
-const slides = [SlideCapa, SlideIntroducao, SlideInstagram, SlideFichaGoogle, SlideProblemasFicha];
+const slides = [SlideCapa, SlideIntroducao, SlideInstagram, SlideFichaGoogle, SlideProblemasFicha, SlideSite, SlideBuscas];
 
 const SlidePresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
