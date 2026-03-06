@@ -4,8 +4,10 @@ import { AnimatePresence, motion } from 'framer-motion';
 import SlideCapa from './slides/SlideCapa';
 import SlideIntroducao from './slides/SlideIntroducao';
 import SlideInstagram from './slides/SlideInstagram';
+import SlideFichaGoogle from './slides/SlideFichaGoogle';
+import SlideProblemasFicha from './slides/SlideProblemasFicha';
 
-const slides = [SlideCapa, SlideIntroducao, SlideInstagram];
+const slides = [SlideCapa, SlideIntroducao, SlideInstagram, SlideFichaGoogle, SlideProblemasFicha];
 
 const SlidePresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
