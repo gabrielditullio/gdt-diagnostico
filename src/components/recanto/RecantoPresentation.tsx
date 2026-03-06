@@ -13,8 +13,11 @@ import RecantoOportunidades from './slides/RecantoOportunidades';
 import RecantoDiagnostico from './slides/RecantoDiagnostico';
 import RecantoResumo from './slides/RecantoResumo';
 import RecantoPosicionamento from './slides/RecantoPosicionamento';
+import RecantoQuemSouEu from './slides/RecantoQuemSouEu';
+import RecantoProximosPassos from './slides/RecantoProximosPassos';
+import RecantoCTA from './slides/RecantoCTA';
 
-const slides = [RecantoCapa, RecantoIntroducao, RecantoInstagram, RecantoFichaGoogle, RecantoProblemasFicha, RecantoSite, RecantoBuscas, RecantoAnuncios, RecantoOportunidades, RecantoDiagnostico, RecantoResumo, RecantoPosicionamento];
+const slides = [RecantoCapa, RecantoIntroducao, RecantoInstagram, RecantoFichaGoogle, RecantoProblemasFicha, RecantoSite, RecantoBuscas, RecantoAnuncios, RecantoOportunidades, RecantoDiagnostico, RecantoResumo, RecantoPosicionamento, RecantoQuemSouEu, RecantoProximosPassos, RecantoCTA];
 
 const RecantoPresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
