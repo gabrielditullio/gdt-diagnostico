@@ -14,8 +14,11 @@ import SlideRanking from './slides/SlideRanking';
 import SlideDiagnostico from './slides/SlideDiagnostico';
 import SlideResumo from './slides/SlideResumo';
 import SlidePosicionamento from './slides/SlidePosicionamento';
+import SlideQuemSouEu from './slides/SlideQuemSouEu';
+import SlideProximosPassos from './slides/SlideProximosPassos';
+import SlideCTA from './slides/SlideCTA';
 
-const slides = [SlideCapa, SlideIntroducao, SlideInstagram, SlideFichaGoogle, SlideProblemasFicha, SlideSite, SlideBuscas, SlideAnuncios, SlideExemplosAnuncios, SlideRanking, SlideDiagnostico, SlideResumo, SlidePosicionamento];
+const slides = [SlideCapa, SlideIntroducao, SlideInstagram, SlideFichaGoogle, SlideProblemasFicha, SlideSite, SlideBuscas, SlideAnuncios, SlideExemplosAnuncios, SlideRanking, SlideDiagnostico, SlideResumo, SlidePosicionamento, SlideQuemSouEu, SlideProximosPassos, SlideCTA];
 
 const SlidePresentation: React.FC = () => {
   const [current, setCurrent] = useState(0);
