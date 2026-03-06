@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion, type Easing } from 'framer-motion';
 
 const fade = (delay: number) => ({
   initial: { opacity: 0, y: 12 },
