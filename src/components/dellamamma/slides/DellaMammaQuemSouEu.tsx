@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { fadeUp } from '../../slides/animations';
+import gabrielFoto from '@/assets/gabriel-foto.jpg';
 
 const DellaMammaQuemSouEu = () => {
   return (
